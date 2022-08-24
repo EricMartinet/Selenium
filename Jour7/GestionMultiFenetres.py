@@ -14,7 +14,7 @@ parent_window_id = driver.current_window_handle
 print(parent_window_id)
 parent_window_url = driver.current_url
 print(parent_window_url)
-driver.find_element(By.LINK_TEXT,"OrangeHRM, Inc").click()
+driver.find_element(By.LINK_TEXT, "OrangeHRM, Inc").click()
 # récupérer la liste des fenetres ouvertes
 windowS_id = driver.window_handles
 # 1ere fenetre

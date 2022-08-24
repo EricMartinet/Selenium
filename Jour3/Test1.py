@@ -4,11 +4,6 @@
 # 3 cliquer sur le lien enregister
 # 4 remplir le forumulaire
 # 5 cliquer sur le bouton register
-#
-#
-#
-#
-#
 
 import time
 # Importer le pilote

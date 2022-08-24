@@ -5,7 +5,7 @@ from selenium.webdriver.support.select import Select
 driver = webdriver.Chrome()
 driver.maximize_window()
 driver.get('https://www.opencart.com/')
-driver.find_element(By.XPATH, '//*[@id="navbar-collapse-header"]/div/a[2]' ).click()
+driver.find_element(By.XPATH, '//*[@id="navbar-collapse-header"]/div/a[2]').click()
 #driver.find_element(By.XPATH, '//select[@name='country_id']/option')
 dropDown_Country = driver.find_element(By.ID, "input-country")
 country = Select(dropDown_Country)

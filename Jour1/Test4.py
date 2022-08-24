@@ -1,13 +1,14 @@
 #Test Case
 #------------------
 # 1) Ouvrir le navigateur(chrome/firefox/Edge)
-# 2) Naviguer vers l'url https://opensource-demo.orangehrmlive.com/
+# 2) Naviguer vers l'url https://login.salesforce.com/
 # 3) Entrer username (Admin)
 # 4) Entrer password (admin123)
 # 5) Cliquer sur le bouton Login
 # 6) recuperer le titre de la page(titre actuel)
-# 7) Verifier le titre de la page: OrangeHRM  (attendu)
-# 8) Fermer le navigateur
+# 7) Verifier le titre de la page: Connexion | Salesforce  (attendu)
+# 8) Vérifier le message d'erreur
+# 9) Fermer le navigateur
 import time
 
 from selenium import webdriver
